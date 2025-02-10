@@ -3,7 +3,7 @@ int main() {
     char a;
     int b;
     char c;
-    scanf("%c %d %c",a,b,c);
+    scanf("%c %d %c",&a,&b,&c);
     printf("Name: %c"a);
     printf("Age: %d",b);
     printf("Hobby: %c",c);

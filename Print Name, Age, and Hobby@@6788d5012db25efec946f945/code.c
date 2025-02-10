@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    char a;
+    char a[99];
     int b;
-    char c;
-    scanf("%c %d %c",&a,&b,&c);
-    printf("Name: %c\n",a);
+    char c[99];
+    scanf("%s %d %s",&a,&b,&c);
+    printf("Name: %s\n",a);
     printf("Age: %d\n",b);
-    printf("Hobby: %c\n",c);
+    printf("Hobby: %s\n",c);
     return 0;
 }

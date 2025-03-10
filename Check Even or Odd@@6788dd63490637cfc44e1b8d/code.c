@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    int a;
+    float a;
     scanf("%a",&a);
     if(a/2){
         printf("Even");

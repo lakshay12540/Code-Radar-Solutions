@@ -5,6 +5,6 @@ int main() {
     if(a/2){
         printf("Even");
     }
-    else{printf("odd");}
+    else{printf("Odd");}
     return 0;
 }

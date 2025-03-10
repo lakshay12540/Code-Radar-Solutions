@@ -2,7 +2,7 @@
 int main() {
     float a;
     scanf("%a",&a);
-    if(a/2){
+    if(a%2==0){
         printf("Even");
     }
     else{printf("Odd");}

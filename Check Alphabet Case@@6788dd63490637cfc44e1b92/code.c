@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char a;y
+    char a;
     scanf("%c",&a);
     if.isupper():
         printf("Uppercase"):

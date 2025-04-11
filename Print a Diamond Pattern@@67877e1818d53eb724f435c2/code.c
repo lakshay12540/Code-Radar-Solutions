@@ -34,7 +34,7 @@ void printDiamond(int rows) {
 int main() {
     int rows;
 
-    printf("Enter the number of rows for the diamond (odd number): ");
+    printf(" ");
     scanf("%d", &rows);
 
     printDiamond(rows);

@@ -34,7 +34,7 @@ void printDiamond(int rows) {
 int main() {
     int rows;
 
-    printf(" ");
+    printf("");
     scanf("%d", &rows);
 
     printDiamond(rows);

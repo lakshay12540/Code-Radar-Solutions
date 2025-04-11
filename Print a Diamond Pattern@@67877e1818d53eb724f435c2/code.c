@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void printDiamond(int rows) {
-    if (rows % 2 == 0 && rows%2!=0) {
+    if (rows % 2 == 0 ) {
         printf("Please enter an odd number of rows.\n");
         return;
     }
